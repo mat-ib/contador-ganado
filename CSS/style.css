@@ -46,8 +46,12 @@ h1{
         font-size: 2rem;
     }
     .button{
-        display: block;
-        font-size: 18px;
+        width: 80%;
+        display: flexbox;
+        align-items: center;
         justify-content: center;
+    }
+    #counterText{
+        font-size: 5rem;
     }
 }
