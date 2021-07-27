@@ -72,6 +72,7 @@ h1{
         display: flexbox;
         align-items: center;
         justify-content: center;
+        transition-duration: 0.3s;
     }
     #counterText{
         font-size: 5rem;
