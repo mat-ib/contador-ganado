@@ -18,6 +18,10 @@ h1{
     border: 2px solid;
     border-radius: 4px;
 }
+
+/* INCREMENT BUTTON */
+/* INCREMENT BUTTON */
+/* INCREMENT BUTTON */
 #button1{
     border-color: red;
 }
@@ -25,7 +29,14 @@ h1{
     background-color: red;
     color: white;
 }
+#button1:active{
+    background-color: white;
+    color: black;
+}
 
+/* RESTART BUTTON */
+/* RESTART BUTTON */
+/* RESTART BUTTON */
 #button2{
     border-color: orange;
 }
@@ -33,13 +44,24 @@ h1{
     background-color: orange;
     color: white;
 }
+#button2:active{
+    background-color: white;
+    color: black;
+}
 
+/* REDUCTION BUTTON */
+/* REDUCTION BUTTON */
+/* REDUCTION BUTTON */
 #button3{
     border-color: green;
 }
 #button3:hover{
     background-color: green;
     color: white;
+}
+#button3:active{
+    background-color: white;
+    color: black;
 }
 @media screen and (max-width: 480px){
     .myDiv{

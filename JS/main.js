@@ -7,7 +7,7 @@ function incrementButton(){
 
     ++value;
 
-    console.log(value)
+    // console.log(value)
     document.getElementById('counterText').innerHTML = value;
 }
 
@@ -20,7 +20,7 @@ function reductionButton(){
 
     --value;
 
-    console.log(value)
+    // console.log(value)
     document.getElementById('counterText').innerHTML = value;
 }
 
@@ -29,8 +29,8 @@ function reductionButton(){
 ////////// RESTART //////////
 function restartButton(){
     var element = document.getElementById('counterText');
-    var value = element.innerHTML;
+    var value = 0;
 
-    console.log(value)
-    document.getElementById('counterText').innerHTML = 0;
+    // console.log(value)
+    document.getElementById('counterText').innerHTML = value;
 }
